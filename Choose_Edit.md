@@ -72,26 +72,12 @@ Basic Parameters:
 
 Advanced Parameters: 
 
-* The *tip-offset* is how far (in mm) below / above the saved point the liquid should be dispensed. A negative number (like the -2 seen below) indicates below the saved calibration point, whereas a positive is above the calibrated point.
+* The **tip-offset** is how far (in mm) below / above the saved point the liquid should be dispensed. A negative number (like the -2 seen below) indicates below the saved calibration point, whereas a positive is above the calibrated point.
 * The delay indicates how long (in milli-seconds) the robot will wait at the bottom of the dispense, with the plunger fully pushed, before starting back up the Z-axis. 
-* When *tip-touch* is set to 'True' the robot will do a four point movement after a liquid dispense, touching the tip to four sides of the well so that every last drop of liquid goes in. 
-* When *blow-out* is set to true, the robot will push the pipette plunger further than the 'bottom' position, all the way to the 'blow-out' position.
-* When *extra-pull* is set to true, the robot will pull up slightly more liquid than specified in the transfer command, and keep that extra volume in the tip after dispensing the correct ammount (the extra liquid gets thrown in the trash with the used tip). This increases the accuracy of the transfer volumes, but uses extra reagent. 
+* When **tip-touch** is set to 'True' the robot will do a four point movement after a liquid dispense, touching the tip to four sides of the well so that every last drop of liquid goes in. 
+* When **blow-out** is set to true, the robot will push the pipette plunger further than the 'bottom' position, all the way to the 'blow-out' position.
+* When **extra-pull** is set to true, the robot will pull up slightly more liquid than specified in the transfer command, and keep that extra volume in the tip after dispensing the correct ammount (the extra liquid gets thrown in the trash with the used tip). This increases the accuracy of the transfer volumes, but uses extra reagent. 
 
 ![Expanded Instruction Command] (img/Choose_Protocol/Editor_Instructions_2.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ##### Next Step: [Calibrate and Run] (Calibrate_Run.md)
