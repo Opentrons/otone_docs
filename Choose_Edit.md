@@ -40,6 +40,8 @@ The head section specifies what pipettes are attached to the robot, in which pos
 
 The deck section is where you declair all the labware you're using in a given run. It always needs to include at least one tip rack for the pipette you are using, and one trash for the pipette to eject tips in. Other than that, you can add things like 96 well plates and microfuge tubes!
 
+![Deck Section Screengrab] (img/Choose_Protocol/Editor_Deck.jpg)
+
 The labware definitions specify the exact physical demensions of each piece of labware we have added to the library. This means that the machine knows where every well in a 96-well plate is after you tell it just one position, for example. 
 
 _Note: When adding items to the deck, you can type whatever you want in the 'Name:' field (something descriptive like 'Source Plate' or 'Reagent Trough' is generally encouraged), but the value you enter in the 'Labware:' field must correspond exactly to a value in the Labware Library._
