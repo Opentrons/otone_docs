@@ -11,13 +11,9 @@ First thing to do is plug everything in correctly.
 
 ![Chords Plugged In Image] (img/Setup_Mac/Plugged_1.jpg)
 
-5. Connect the RPi to 5V power supply in wall socket. This is the micro-USB like an Android phone charger. When you plug in the RPi, it will begin to boot up, and the motors will home at the end of boot (approx 3 minutes). Be ready for the motors to move before plugging in the RPi!
+Finnally, connect the RPi to 5V power supply in wall socket. This is the micro-USB like an Android phone charger, and goes in the top of the RPi in the slit in the aluminum box. 
 
-PICTURE TBD!!!!
-
-
-
-PICTURE TBD!!!!
+_When you plug in the RPi, the robot will begin to boot up,_ and the motors will home at the end of boot (approx 3 minutes). Be ready for the motors to move before plugging in the RPi!
 
 ### Configure Network Settings
 
@@ -41,13 +37,4 @@ The RPi serves the interface for running the robot to your computer over the eth
 
 ![OT.One Interface Screenshot] (img/Setup_Mac/Networking_4.png)
 
-
-
-
- 
-
-
-
-
-
-
+Once you have all that, its time to move the robot! Go to the next step: [Jogging Controls] (Jogging_Controls.md). 
