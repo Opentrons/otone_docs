@@ -26,19 +26,19 @@ Now you can start editing your protocol!
 
 *Note:* To change the value in a feild, just click the field and type in the new value. The new value is saved when you click back out of that field (click on something neutral, not a different field). 
 
-*Info Section*
+#### Info Section
 
 The Info section specifies 'meta' information about the document. 
 
 ![Info Section of Editor] (img/Choose_Protocol/Editor_Info.jpg)
 
-*Head Section* 
+#### Head Section 
 
 The head section specifies what pipettes are attached to the robot, in which position, and what their attributes are. You can do things here like change the rate the robot moves the plunger (slow it down for more viscous material for example) and define which tip-rack & trash location each pipette should use. 
 
 ![Head Section of Editor] (img/Choose_Protocol/Editor_Head.jpg)
 
-*Deck Section*
+#### Deck Section
 
 The deck section is where you declare all the labware you're using in a given run. It always needs to include at least one tip rack for the pipette you are using, and one trash for the pipette to eject tips into. Other than that, you can add things like 96 well plates and microfuge tubes!
 
@@ -52,7 +52,7 @@ _Note: When adding items to the deck, you can type whatever you want in the 'Nam
 
 After you have added all of the labware you need on your deck, you can start defining the instructions. 
 
-*Instructions*
+#### Instructions
 
 The instructions are the bulk of the protocol, specifying the liquid handling operations the OT.One carries out in a given run. Instructions are in 'tool blocks' based on which pipette they are done with. Each pipette do four different commands:
 
