@@ -36,7 +36,7 @@ The RPi serves the interface for running the robot to your computer over the eth
 
 3. Open a browser, or a new tab in the browser you already have open (Chrome works well). Type 10.10.1.2 into the address bar and press 'enter.' 
 
-![Browser IP Address Screenshot] (img/Setup_Mac/Networking_3.jpg)
+![Browser IP Address Screenshot] (img/Setup_Mac/Networking_3.png)
 
 
 
