@@ -1,6 +1,6 @@
 #OT.One Set-up _Mac OSX_
 
-### Connect Everything
+### Plug things in
 
 First thing to do is plug everything in correctly. 
 
