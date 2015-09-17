@@ -4,10 +4,11 @@ Here is where you will find the information you need to get your OT.One up and r
 
 ### Contents
 
-1. [Set-up (Mac)] (Setup_Mac.md)
-2. [Set-up (Windows)] (Wetup_Windows.md)
-3. [Jog Controls] (Jogging_Controls.md)
-4. [Choose / Edit a Protocol] (Choose_Edit.md)
-5. [Calibrate and Run] (Calibrate_Run.md)
+1. [Unboxing] (Unboxing.md)
+2. [Set-up (Mac)] (Setup_Mac.md)
+3. [Set-up (Windows)] (Wetup_Windows.md)
+4. [Jog Controls] (Jogging_Controls.md)
+5. [Choose / Edit a Protocol] (Choose_Edit.md)
+6. [Calibrate and Run] (Calibrate_Run.md)
 
 ##### Please contact us *info@opentrons.com* with any questions!
