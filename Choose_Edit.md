@@ -14,7 +14,7 @@ Each protocol document specifies the which pipette(s) are on the robot head, wha
 
 ##### 2- Edit OT-Protocol 
 
-You can edit the document you downloaded from the Protocol Library with the [Protocol Editor] (https//:editor.mix.bio). Just browse for your downloaded OT-Protocol document, or drag the JSON file directly in as shown here:
+You can edit the document you downloaded from the Protocol Library to taylor it to your needs with the [Protocol Editor] (https//:editor.mix.bio). You have to add the OT-Protocol document to the editor by browsing for it, or dragging the file directly in as shown here:
 
 ![Drag into Editor Screengrab] (img/Choose_Protocol/Editor_1.jpg)
 
@@ -24,9 +24,11 @@ When it has processed, it should look something like this:
 
 Now you can start editing your protocol!
 
-*Note:* Just click a field and type in your new value to change it. The value is saved when you click back out of that field (click on something neutral, not a different field). 
+*Note:* To change the value in a feild, just click the field and type in the new value. The new value is saved when you click back out of that field (click on something neutral, not a different field). 
 
-Below the Info section of the protocol is highlighted. It specifies 'meta' information about the document. 
+*Info Section*
+
+The Info section specifies 'meta' information about the document. 
 
 ![Info Section of Editor] (img/Choose_Protocol/Editor_Info.jpg)
 
@@ -38,15 +40,51 @@ The head section specifies what pipettes are attached to the robot, in which pos
 
 *Deck Section*
 
-The deck section is where you declair all the labware you're using in a given run. It always needs to include at least one tip rack for the pipette you are using, and one trash for the pipette to eject tips in. Other than that, you can add things like 96 well plates and microfuge tubes!
+The deck section is where you declare all the labware you're using in a given run. It always needs to include at least one tip rack for the pipette you are using, and one trash for the pipette to eject tips into. Other than that, you can add things like 96 well plates and microfuge tubes!
 
 ![Deck Section Screengrab] (img/Choose_Protocol/Editor_Deck.jpg)
 
-The labware definitions specify the exact physical demensions of each piece of labware we have added to the library. This means that the machine knows where every well in a 96-well plate is after you tell it just one position, for example. 
+The labware definitions specify the exact physical demensions of each piece of labware in the OpenTrons Labware Library. The  profile in the Labware Library tells the machine where, for example, each well in a 96-well-plate is, based on only a single user defined XYZ position. Thats why, when you calibrate the positions in the protocol during the next step, you only have to save one position per piece of labware for each pipette and the robot can figure out the rest at runtime.
 
-_Note: When adding items to the deck, you can type whatever you want in the 'Name:' field (something descriptive like 'Source Plate' or 'Reagent Trough' is generally encouraged), but the value you enter in the 'Labware:' field must correspond exactly to a value in the Labware Library._
+_Note: When adding items to the deck, you can type whatever you want in the 'Name:' field (something descriptive like 'Source Plate' or 'Reagent Trough' is generally encouraged), but the value you enter in the 'Labware:' field must correspond exactly to a value in the Labware Library. You should copy and paste the text from the Labware Library document below:_
 
-This is a list of what you can enter into the 'Labware:' field: [OpenTrons Labware Library 1.0] (Labware_Library.md)
+[OpenTrons Labware Library 1.0] (Labware_Library.md)
+
+After you have added all of the labware you need on your deck, you can start defining the instructions. 
+
+*Instructions*
+
+The instructions are the bulk of the protocol, specifying the liquid handling operations the OT.One carries out in a given run. Instructions are in 'tool blocks' based on which pipette they are done with. Each pipette do four different commands:
+
+* Transfer - basic one-to-one liquid transfer using a single tip. 
+* Distribute - one-to-many liquid transfer using a single tip for multiple dispenses. 
+* Consolodate - many-to-one liquid transfer using a different tip for every source. 
+* Mix - use a new tip to draw liquid up and down to mix it. 
+
+![Tools and Instructions Screengrab] (img/Choose_Protocol/Editor_Instructions_1.png)
+
+Each instruction block can be expanded to expose the parameters. This is where you specify the source(s), target(s), and volume(s) for instructions.
+
+Basic Parameters:
+
+* Sources and targets are defined by, first, the name you gave them in the deck section, and, second, a well location within that piece of labware.
+* Volume (in uL) indicates how much liquid should be transfered in that instruction.
+
+Advanced Parameters: 
+
+* The *tip-offset* is how far (in mm) below / above the saved point the liquid should be dispensed. A negative number (like the -2 seen below) indicates below the saved calibration point, whereas a positive is above the calibrated point.
+* The delay indicates how long (in milli-seconds) the robot will wait at the bottom of the dispense, with the plunger fully pushed, before starting back up the Z-axis. 
+* When *tip-touch* is set to 'True' the robot will do a four point movement after a liquid dispense, touching the tip to four sides of the well so that every last drop of liquid goes in. 
+* When *blow-out* is set to true, the robot will push the pipette plunger further than the 'bottom' position, all the way to the 'blow-out' position.
+* When *extra-pull* is set to true, the robot will pull up slightly more liquid than specified in the transfer command, and keep that extra volume in the tip after dispensing the correct ammount (the extra liquid gets thrown in the trash with the used tip). This increases the accuracy of the transfer volumes, but uses extra reagent. 
+
+![Expanded Instruction Command] (img/Choose_Protocol/Editor_Instructions_2.png)
+
+
+
+
+
+
 
 
 
