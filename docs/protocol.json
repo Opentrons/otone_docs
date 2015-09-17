@@ -1,0 +1,212 @@
+{
+  "info" : {
+    "name" : "protocol_name",
+    "description" : "description of protocol",
+    "run-notes" : "additional information further specifying details of the protocol run",
+    "create-date" : "7/15/2015",
+    "version" : "2"
+  },
+
+
+  "deck" : {
+    "p200-rack" : {
+      "labware" : "tiprack-200ul", 
+      "slot": "A1"
+    },
+    "trough": {
+      "labware": "trough-12row", 
+      "slot": "C2"
+    },
+    "plate-1": {
+      "labware": "96-flat", 
+      "slot": "C1"
+    },
+    "plate-2": {
+      "labware": "96-flat", 
+      "slot": "D1"
+    },
+    "plate-3": {
+      "labware": "96-flat", 
+      "slot": "D2"
+    },
+    "trash": {
+      "labware": "point", 
+      "slot": "B2"
+    }
+  },
+
+
+  "head" : {
+    "p200" : {
+      "tool" : "pipette",
+      "tip-racks" : [
+        {
+          "container" : "p200-rack"
+        }
+      ],
+      "trash-container" : {
+        "container" : "trash"
+      },
+      "multi-channel" : true,
+      "axis" : "a",
+      "volume" : 250,
+      "down-plunger-speed" : 300,
+      "up-plunger-speed" : 500,
+      "tip-plunge" : 8,
+      "extra-pull-volume" : 20,
+      "extra-pull-delay" : 200,
+      "distribute-percentage" : 0.1,
+      "points" : [
+        {
+          "f1" : 10,
+          "f2" : 6
+        },
+        {
+          "f1" : 25,
+          "f2" : 23
+        },
+        {
+          "f1" : 50,
+          "f2" : 49
+        },
+        {
+          "f1" : 200,
+          "f2" : 200
+        }
+      ]
+    }
+  },
+
+
+  "ingredients" : {
+    "ReagentA": 
+    [
+      {
+        "container": "Reagents-1",
+        "location": "A3",
+        "volume": 25000
+      }
+    ],
+
+    "ReagentB": 
+    [
+      {
+        "container": "Reagents-1",
+        "location": "A1",
+        "volume": 7000
+      }
+    ],
+
+    "Standard1": 
+    [
+      {
+        "container": "Standards",
+        "location": "A1",
+        "volume": 125
+      }
+    ]   
+  },
+
+
+  "instructions": [
+    {
+      "tool": "p200",
+      "groups": [
+        {
+          "transfer": [
+            {
+              "from": {
+                "container": "trough",
+                "location": "A1",
+                "tip-offset": -2,
+                "delay" : 2000,
+                "touch-tip" : true
+              },
+              "to": {
+                "container": "plate-1",
+                "location": "A1",
+                "touch-tip" : true
+              },
+              "volume": 100,
+              "blowout" : true,
+              "extra-pull" : true
+            }
+          ]
+        },
+        {
+          "distribute":
+          {
+            "from": {
+              "container": "trough",
+              "location": "A1"
+            },
+            "to": [
+              {
+                "container": "plate-2",
+                "location": "A2",
+                "volume" : 20,
+                "touch-tip" : true
+              },
+              {
+                "container": "plate-2",
+                "location": "A3",
+                "volume" : 30,
+                "touch-tip" : true
+              },
+              {
+                "container": "plate-2",
+                "location": "A4",
+                "volume" : 100,
+                "touch-tip" : true
+              }
+            ],
+            "blowout" : true
+          }
+        },
+        {
+          "consolidate":
+          {
+            "from": [
+              {
+                "container": "plate-2",
+                "location": "A2",
+                "volume" : 20,
+                "touch-tip" : true
+              },
+              {
+                "container": "plate-2",
+                "location": "A3",
+                "volume" : 30,
+                "touch-tip" : true
+              },
+              {
+                "container": "plate-2",
+                "location": "A4",
+                "volume" : 100,
+                "touch-tip" : true
+              }
+            ],
+            "to": {
+              "container": "plate-3",
+              "location": "A5",
+              "touch-tip" : true
+            },
+            "blowout" : true
+          }
+        },
+        {
+          "mix": [
+            {
+              "container": "plate-1",
+              "location": "A5",
+              "volume" : 100,
+              "repetitions" : 5,
+              "blowout" : true,
+              "liquid-tracking" : true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
