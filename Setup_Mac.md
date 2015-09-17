@@ -13,7 +13,7 @@ First thing to do is plug everything in correctly.
 
 Finnally, connect the RPi to 5V power supply in wall socket. This is the micro-USB like an Android phone charger, and goes in the top of the RPi in the slit in the aluminum box. 
 
-_When you plug in the RPi, the robot will begin to boot up,_ and the motors will home at the end of boot (approx 3 minutes). Be ready for the motors to move before plugging in the RPi!
+When you plug in the RPi it will begin to boot up and the robot will home at the end of boot (approx 3 minutes). Be ready for the motors to move!
 
 ### Configure Network Settings
 
