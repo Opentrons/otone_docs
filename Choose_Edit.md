@@ -88,10 +88,8 @@ Advanced Parameters:
 
 #### Save OT-Protocol Document
 
-After you have created all the instructions you want, name your protocol, and press 'Save.' Your browser will download an OT-Protocol document compiled according to your designs in the Protocol Editor. 
+After you have created all the instructions you want, name your protocol, and press 'Save.' Your browser will download an OT-Protocol document compiled according to your designs in the Protocol Editor. Now you're ready to run your protocol!
 
 ![Name and Save Your Protocol] (img/Choose_Protocol/Editor_Save.jpg)
-
-Now you're ready to run your protocol!
 
 ##### Next Step: [Calibrate and Run] (Calibrate_Run.md)
