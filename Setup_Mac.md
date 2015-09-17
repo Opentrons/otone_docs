@@ -38,7 +38,11 @@ The RPi serves the interface for running the robot to your computer over the eth
 
 ![Browser IP Address Screenshot] (img/Setup_Mac/Networking_3.png)
 
-##### 4-  
+##### 4- Refresh the browser and you should see the OT.One Interface! Make sure it is green and says 'Browser Connected to Server.' 
+
+![OT.One Interface Screenshot] (img/Setup_Mac/Networking_4.png)
+
+
 
 
  
