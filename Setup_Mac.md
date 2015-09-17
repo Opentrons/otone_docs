@@ -26,18 +26,19 @@ The RPi serves the interface for running the robot to your computer over the eth
 
 *Note: you will not be able to see the interface until the RPi has completed boot-up, which you can tell because the robot runs a home sequence.*
 
-1. Go to System Preferences and click on Networking. 
+### 1- Go to System Preferences and click on Networking. 
 
 ![Seystem Preferences Screenshot] (img/Setup_Mac/Networking_1.jpg)
 
-2. Select the Ethernet connection that is going to the RPi. Change the Configure IPv4 drop-down menue to "Using DHCP with manual address." Set the address to 10.10.1.1. Then click 'Apply.' 
+### 2- Select the Ethernet connection that is going to the RPi. Change the Configure IPv4 drop-down menue to "Using DHCP with manual address." Set the address to 10.10.1.1. Then click 'Apply.' 
 
 ![Network Settings Screenshot] (img/Setup_Mac/Networking_2.jpg)
 
-3. Open a browser, or a new tab in the browser you already have open (Chrome works well). Type 10.10.1.2 into the address bar and press 'enter.' 
+### 3- Open a browser, or a new tab in the browser you already have open (Chrome works well). Type 10.10.1.2 into the address bar and press 'enter.' 
 
 ![Browser IP Address Screenshot] (img/Setup_Mac/Networking_3.png)
 
+### 4-  
 
 
  
