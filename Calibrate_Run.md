@@ -1,28 +1,28 @@
 ## 1. Drag JSON file into interface 
 
-OpenTrons jobs are described in JSON files that the robot reads as instruction set. You download these files from Mix.Bio. You can choose a pre-made JSON document from the Protocol Database that is ready to run, or customize your own in the Protocol Editor. Once you have the protocol you want downloaded, drag that file into the Setup / Run interface. 
+OpenTrons jobs are described in JSON files that the robot reads as instruction set. You download these files from [Mix.Bio](http://mix.bio). You can choose a pre-made JSON document from the Protocol Database that is ready to run, or customize your own in the [Protocol Editor](http://editor.mix.bio). Once you have the protocol you want downloaded, drag that file into the Setup / Run interface. 
 
-...
+{image one}
 
 ## 2. Save the tip-rack positions 
 
 The JSON protocol tells the machine the set of instructions to run, but you need to help it find the physical locations those instructions correspond to. You do this by jogging the robot to the correct position and saving it. As you can see in the interface below, each piece of labware used in the protocol just popped up in the "Positions" section with a "save" button. 
 
-...
+{image two}
 
 The first position you save should be your tip rack. Select that position then jog your robot so that the pipette is hovering directly over the A1 tip of the rack that it will use for the run. 
 
-...
+{image three}
 
 When you think the pipette is well positioned directly above the tip, flip to the "Pipette" section of the interface, select the correct pipette, and hit "pick up tip." The machine will go up and down three times in an attempt to pick up the tip. 
 
 NOTE: the distance the machine moves down the Z axis to pick up the tip is defined in the "tip plunge" field in the Pipette definition in the Head section of the JSON OT protocol document. 
 
-...
+{image four}
 
 If the machine picked up the tip satisfactorily, go back to the "Deck" section and save that position. If it did not go low enough to pick up the tip securely, jog it down the Z axis slightly and try pushing "pick up tip" again. If it seems the robot is putting lots of force on the pipette when it picks up the tip, jog up the Z axis, eject the tip, and try pressing "pick up tip" again. Save the position that will consistently pick up the tip without applying too much force and damaging your pipette. 
 
-...
+{image five}
 
 Nice! Now you have saved your first position. Once you"ve saved a position, a "move-to" button will appear by it. That allows you to go directly to that position to test it out just by clicking it -- no need to jog there again. 
 
@@ -36,7 +36,7 @@ After you re-establish a zero point for the robot, your saved positions might be
 
 You need to save three positions for each pipette: top, blow-out, and tip-drop. Select the pipette you are going to work with and jog the actuator up and down to find each position, then save it. 
 
-...
+{image six}
 
 Top: This position is where the robot barely touches the top of the pipette plunger, but does not compress the plunger. Effectively the zero for that axis. 
 
