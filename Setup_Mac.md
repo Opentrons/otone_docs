@@ -13,7 +13,7 @@ First thing to do is plug everything in correctly.
 
 Finnally, connect the Raspberry Pi to 5V power supply in wall socket. This is the micro-USB like an Android phone charger, and goes in the top of the Raspberry Pi in the slit in the aluminum box. 
 
-When you plug in the Raspberry Pi it will begin to boot up and the robot will home at the end of boot (approx 3 minutes). Be ready for the motors to move!
+When you plug in the Raspberry Pi it will begin to boot up.  In approximately three minutes, the motors should begin to move as the robot runs through its homing procedure.
 
 ## Configure Network Settings
 
@@ -21,7 +21,7 @@ The Raspberry Pi contains a small webserver which runs the interface for calibra
 
 You need to manually set some network settings the first time you do this.
 
-*Note: you will not be able to see the interface until the RPi has completed boot-up, which you can tell because the robot runs a home sequence.*
+*Note: you will not be able to see the interface until the Raspberry Pi has finished booting up.  You can tell when this has happened because the robot will begin to run its motors for a home sequence.*
 
 ### 1. Enter System Preferences
 
