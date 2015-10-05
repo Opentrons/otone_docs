@@ -4,7 +4,7 @@
 
 First thing to do is plug everything in correctly. 
 
-1. Plug the ethernet cable from your computer into the RPi.
+1. Plug the ethernet cable from your computer into the Raspberry Pi.
 2. The Raspberry Pi to the Smoothieboard with the short USB-A to USB-B.
 3. Smoothieboard to 12V powersupply in wall socket. This is the round barrel jack and larger power brick.  
 4. Hit the on button to send power to the motors.
