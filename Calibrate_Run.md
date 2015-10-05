@@ -2,27 +2,27 @@
 
 OpenTrons jobs are described in JSON files that the robot reads as instruction set. You download these files from [Mix.Bio](http://mix.bio). You can choose a pre-made JSON document from the Protocol Database that is ready to run, or customize your own in the [Protocol Editor](http://editor.mix.bio). Once you have the protocol you want downloaded, drag that file into the Setup / Run interface. 
 
-{image one}
+![NoProtocolLoaded] (img/Calibrate_Run/NoProtocolLoaded.png)
 
 ## 2. Save the tip-rack positions 
 
 The JSON protocol tells the machine the set of instructions to run, but you need to help it find the physical locations those instructions correspond to. You do this by jogging the robot to the correct position and saving it. As you can see in the interface below, each piece of labware used in the protocol just popped up in the "Positions" section with a "save" button. 
 
-{image two}
+![DeckViewWithSaveButtons] (img/Calibrate_Run/DeckViewWithSaveButtons.png)
 
 The first position you save should be your tip rack. Select that position then jog your robot so that the pipette is hovering directly over the A1 tip of the rack that it will use for the run. 
 
-{image three}
+![TipRackHighlighted] (img/Calibrate_Run/TipRackHighlighted.png)
 
 When you think the pipette is well positioned directly above the tip, flip to the "Pipette" section of the interface, select the correct pipette, and hit "pick up tip." The machine will go up and down three times in an attempt to pick up the tip. 
 
 NOTE: the distance the machine moves down the Z axis to pick up the tip is defined in the "tip plunge" field in the Pipette definition in the Head section of the JSON OT protocol document. 
 
-{image four}
+![PickupTip] (img/Calibrate_Run/PickupTip.png)
 
 If the machine picked up the tip satisfactorily, go back to the "Deck" section and save that position. If it did not go low enough to pick up the tip securely, jog it down the Z axis slightly and try pushing "pick up tip" again. If it seems the robot is putting lots of force on the pipette when it picks up the tip, jog up the Z axis, eject the tip, and try pressing "pick up tip" again. Save the position that will consistently pick up the tip without applying too much force and damaging your pipette. 
 
-{image five}
+![MoveToandReset] (img/Calibrate_Run/MoveToandReset.png)
 
 Nice! Now you have saved your first position. Once you"ve saved a position, a "move-to" button will appear by it. That allows you to go directly to that position to test it out just by clicking it -- no need to jog there again. 
 
@@ -36,7 +36,7 @@ After you re-establish a zero point for the robot, your saved positions might be
 
 You need to save three positions for each pipette: top, blow-out, and tip-drop. Select the pipette you are going to work with and jog the actuator up and down to find each position, then save it. 
 
-{image six}
+![PipettePositionSave] (img/Calibrate_Run/PipettePositionSave.png)
 
 Top: This position is where the robot barely touches the top of the pipette plunger, but does not compress the plunger. Effectively the zero for that axis. 
 
@@ -47,6 +47,8 @@ Drop tip: This is the position where the robot has ejected the tip.
 ### Set all pipette positions
 
 In order to calibrate the robot to the proper volume, you must first set initial positions for the Top, Blowout and Drop Tip positions of the pipette.  Set the Blowout position as low as it can go without the dropping the tip.
+
+![PlungerPositions] (img/Calibrate_Run/PlungerPositions.png)
 
 ### Select testing volume
 
@@ -68,6 +70,10 @@ If you have a scale, you can adjust the calibration based on how much the water 
 
 This will set your machine to run the job! When you hit the button, the first pop-up you are encountered with asks if you"d like to save the run to disk. Generally you dont need to keep the run file saved, but it is good for debugging purposes down the line. For now, hit "cancel."
 
+![SaveFiletoDisk] (img/Calibrate_Run/SaveFiletoDisk.JPG)
+
 Next it will prompt you to begin the run -- hit ok. 
+
+![SendFiletoBeRun] (img/Calibrate_Run/SendFiletoBeRUN.JPG)
 
 When you first run a protocol, it is best to do it dry. Next, do it with water. Then, change the tips out so they are sterile, and run it with your real samples and reagents as many times as you want! 
