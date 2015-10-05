@@ -74,6 +74,6 @@ This will set your machine to run the job! When you hit the button, the first po
 
 Next it will prompt you to begin the run -- hit ok. 
 
-![SendFiletoBeRun] (img/Calibrate_Run/SendFiletoBeRUN.JPG)
+![SendFiletoBeRun] (img/Calibrate_Run/SendFiletoBeRun.JPG)
 
 When you first run a protocol, it is best to do it dry. Next, do it with water. Then, change the tips out so they are sterile, and run it with your real samples and reagents as many times as you want! 
