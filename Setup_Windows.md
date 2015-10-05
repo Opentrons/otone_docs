@@ -20,14 +20,14 @@ _When you plug in the RPi, the robot will begin to boot up,_ and the motors will
 Required: Windows 7 PC with an ethernet port (or USB to ethernet dongle)
 
 1. Using an administrators account, open the "RUN" window, enter "REGEDIT" and click OK.  On the "User Account Control" confirmation box, click the "Yes" button.
-
-insert REGEDIT photo
-
+    ```
+    [insert REGEDIT photo]
+    ```
 2. On the open "Registery Editor" window, on the left pane, go to "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Parameters"
 3. In the listed parameters in the right pane, double click "ScopeAddress" to open the "Edit String" box and change the "Value data" to "10.10.1.1" and then click OK.
-
-insert ScopeAddress photo
-
+    ```
+    insert ScopeAddress photo
+    ```
 4. Next, double clck "StandaloneDHCPAddress" to open the "edit String" box and change the "Value data" to "10.10.1.1" and then click OK.
 
 insert StandaloneDHCPaddress photo
