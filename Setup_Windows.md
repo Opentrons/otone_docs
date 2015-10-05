@@ -21,7 +21,7 @@ Required: Windows 7 PC with an ethernet port (or USB to ethernet dongle)
 
 1) Using an administrators account, open the "RUN" window, enter "REGEDIT" and click OK.  On the "User Account Control" confirmation box, click the "Yes" button.
 
-[insert REGEDIT photo]
+![REGEDIT] (img/Setup_Windows/REGEDIT.jpg)
 
 2) On the open "Registery Editor" window, on the left pane, go to "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Parameters"
 
