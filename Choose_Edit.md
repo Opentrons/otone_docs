@@ -10,7 +10,7 @@ This is an OT-Protocol JSON document explained: [OT-Protocol JSON Explained] (do
 
 Each protocol document specifies the which pipette(s) are on the robot head, what labware is on the robot deck, and then what instructions the robot follows for a given run. Find the OT-Protocol document that seems to be closes to what you are looking for in the [Mix.Bio Protocol Library] (https//:mix.bio/browse) and download it. 
 
-!![MixBioDownload] (img/Choose_Edit/MixBioDownload.png)
+![MixBioDownload] (img/Choose_Edit/MixBioDownload.png)
 
 You can choose a basic template and start a protocol from scratch, or download something specific like a 10x 96-well-plate Serial Dilution or PCR 8-Strip Sample Prep. 
 
