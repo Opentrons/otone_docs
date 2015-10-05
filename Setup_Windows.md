@@ -65,5 +65,5 @@ Required: Windows 7 PC with an ethernet port (or USB to ethernet dongle)
 
 18) Click on the "Config" tab.  The green "online" indicator under the "Connect" button should be visible.
 
-
+Once you have all that, its time to move the robot! Go to the next step: [Jogging Controls] (Jogg
 
