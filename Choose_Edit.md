@@ -20,11 +20,11 @@ You can view and edit your newly downloaded OT-Protocol document with the [Proto
 
 You have to add an OT-Protocol document to the editor by browsing for it, or dragging the file directly in as shown here:
 
-![Drag into Editor Screengrab] (img/Choose_Protocol/Editor_1.jpg)
+![Drag into Editor Screengrab] (img/Choose_Edit/Editor_1.jpg)
 
 Then, click 'Process File." When it has processed, it should look something like this:
 
-![Populated Editor Screengrab] (img/Choose_Protocol/Editor_2.png)
+![Populated Editor Screengrab] (img/Choose_Edit/Editor_2.png)
 
 Now you can start editing your protocol.
 
@@ -34,13 +34,13 @@ Now you can start editing your protocol.
 
 The Info section specifies 'meta' information about the document. All of these fields are optional. 
 
-![Info Section of Editor] (img/Choose_Protocol/Editor_Info.jpg)
+![Info Section of Editor] (img/Choose_Edit/Editor_Info.jpg)
 
 #### Head Section 
 
 The head section specifies what pipettes are attached to the robot, in which position, and what their attributes are. You can do things here like change the rate the robot moves the plunger (slow it down for more viscous material for example) and define which tip-rack & trash location each pipette should use. 
 
-![Head Section of Editor] (img/Choose_Protocol/Editor_Head.jpg)
+![Head Section of Editor] (img/Choose_Edit/Editor_Head.jpg)
 
 *Note: The robot is designed for single-channel pipettes to be put on the Left, and multi-channel pipettes to be put on the Center motor. If you are only using a single-channel, you can put it on the center, but if you are using a single- and a multi-channel at the same time, the single-channel needs to be on the left.*
 
@@ -48,7 +48,7 @@ The head section specifies what pipettes are attached to the robot, in which pos
 
 The deck section is where you declare all the labware you're using in a given run. It always needs to include at least one tip rack for the pipette you are using, and one trash for the pipette to eject tips into. Other than that, you can add things like 96-well-plates and microfuge tube racks to your hearts content (or you fill up the 15 deck slots).
 
-![Deck Section Screengrab] (img/Choose_Protocol/Editor_Deck.jpg)
+![Deck Section Screengrab] (img/Choose_Edit/Editor_Deck.jpg)
 
 The labware definitions specify the exact physical demensions of each piece of labware in the OpenTrons Labware Library. The  profile in the Labware Library tells the machine where, for example, each well in a 96-well-plate is, based on only a single user calibrated XYZ position. Thats why, when you calibrate the positions for a given protocol during the next step, you only have to save one position per piece of labware, and the robot can figure out the rest of the locations at runtime.
 
@@ -67,7 +67,7 @@ The instructions are the bulk of the protocol, specifying the liquid handling op
 * Consolidate - many-to-one liquid transfer, uses same tip for all sources
 * Mix - use a new tip to draw liquid up and down to mix it within a single well
 
-![Tools and Instructions Screengrab] (img/Choose_Protocol/Editor_Instructions_1.png)
+![Tools and Instructions Screengrab] (img/Choose_Edit/Editor_Instructions_1.png)
 
 Each instruction block can be expanded to expose the parameters. This is where you specify the source, target, and volume for instructions.
 
@@ -84,12 +84,12 @@ Advanced Parameters:
 * When **blow-out** is set to true, the robot will push the pipette plunger further than the 'bottom' position, all the way to the 'blow-out' position.
 * When **extra-pull** is set to true, the robot will pull up slightly more liquid than specified in the transfer command, and keep that extra volume in the tip after dispensing the correct ammount (the extra liquid gets thrown in the trash with the used tip). This increases the accuracy of the transfer volumes, but uses extra reagent. Note that, in the example below, the 'blow-out' and 'extra pull' are both set to 'true' so the extra-pull volume will be dispensed into the well along with the desired ammount. 
 
-![Expanded Instruction Command] (img/Choose_Protocol/Editor_Instructions_2.png)
+![Expanded Instruction Command] (img/Choose_Edit/Editor_Instructions_2.png)
 
 #### Save OT-Protocol Document
 
 After you have created all the instructions you want, name your protocol, and press 'Save.' Your browser will download an OT-Protocol document compiled according to your designs in the Protocol Editor. Now you're ready to run your protocol!
 
-![Name and Save Your Protocol] (img/Choose_Protocol/Editor_Save.jpg)
+![Name and Save Your Protocol] (img/Choose_Edit/Editor_Save.jpg)
 
 ##### Next Step: [Calibrate and Run] (Calibrate_Run.md)
