@@ -62,14 +62,14 @@ After you have added all of the labware you need on your deck, you can start def
 
 The instructions are the bulk of the protocol, specifying the liquid handling operations the OT.One carries out in a given run. Instructions are in 'tool blocks' based on which pipette they are done with. Each pipette can do four different commands:
 
-* Transfer - basic one-to-one liquid transfer using a single tip. 
-* Distribute - one-to-many liquid transfer using a single tip for multiple dispenses. 
-* Consolodate - many-to-one liquid transfer using a different tip for every source. 
-* Mix - use a new tip to draw liquid up and down to mix it within a single well. 
+* Transfer - basic one-to-one liquid transfer, one tip per transfer
+* Distribute - one-to-many liquid transfer using a single tip for multiple dispenses 
+* Consolidate - many-to-one liquid transfer, uses same tip for all sources
+* Mix - use a new tip to draw liquid up and down to mix it within a single well
 
 ![Tools and Instructions Screengrab] (img/Choose_Protocol/Editor_Instructions_1.png)
 
-Each instruction block can be expanded to expose the parameters. This is where you specify the source(s), target(s), and volume(s) for instructions.
+Each instruction block can be expanded to expose the parameters. This is where you specify the source, target, and volume for instructions.
 
 Basic Parameters:
 
