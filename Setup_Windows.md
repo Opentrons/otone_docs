@@ -21,19 +21,17 @@ Required: Windows 7 PC with an ethernet port (or USB to ethernet dongle)
 
 1) Using an administrators account, open the "RUN" window, enter "REGEDIT" and click OK.  On the "User Account Control" confirmation box, click the "Yes" button.
 
-![REGEDIT] (img/Setup_Windows/REGEDIT.jpg)
+![REGEDIT] (img/Setup_Windows/REGEDIT.JPG)
 
 2) On the open "Registery Editor" window, on the left pane, go to "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\SharedAccess\Parameters"
 
 3) In the listed parameters in the right pane, double click "ScopeAddress" to open the "Edit String" box and change the "Value data" to "10.10.1.1" and then click OK.
 
-
-insert ScopeAddress photo
-
+![ScopeAddress] (img/Setup_Windows/ScopeAddress.JPG)
 
 4) Next, double clck "StandaloneDHCPAddress" to open the "edit String" box and change the "Value data" to "10.10.1.1" and then click OK.
 
-insert StandaloneDHCPaddress photo
+![StandaloneDHCP] (img/Setup_Windows/StandaloneDHCP.JPG)
 
 5) Close the Registry Editor window.
 
@@ -49,7 +47,7 @@ insert StandaloneDHCPaddress photo
 
 11) Select the "Use the following IP Address" radio button and enter "10.10.1.1." in the form.  Subent mask should be 255.255.255.0.
 
-insert subnet mask photo
+![LocalAreaConnectionToSubnetMask] (img/Setup_Windows/LocalAreaConnectionToSubnetMask.JPG)
 
 12) Click OK to close the "Properties" window.
 
@@ -57,7 +55,7 @@ insert subnet mask photo
 
 14) Select the "Sharing" tab and click the checkbox labeled "Allow other users to connect through their computer's Internet connection".  Click OK to close dialog boxes.
 
-Insert wireless connection sharing photo
+![WirelessConnections] (img/Setup_Windows/WirelessConnections.JPG)
 
 15) Click OK and then click Close.  The "Network and Sharing Center" window can then be closed.
 
