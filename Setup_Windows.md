@@ -37,21 +37,21 @@ Required: Windows 7 PC with an ethernet port (or USB to ethernet dongle)
 
 6) Restart the computer to activate the new settings.
 
-7) Open "Control Panel"/"Network and Sharing Center" - you should see both a wireless connection and unidentified network.
+7) Open "Control Panel"/"Network and Sharing Center".
 
-8) In "Network and Sharing Center", click on "Change adapter settings" on the left side.
+8) In "Network and Sharing Center", click on "Change adapter settings" on the left side.  You should see a wireless connection and an unidentified network.
 
-9) Right click on "Local Area Connection" and then click on "Properties".
+9) Right click on "Local Area Connection" and then click "Properties".
 
-10) Click on "Internet Protocol Version 4 (TCP/IPv4)" entry in the list, and then click on the "Properties" button underneath.
+10) Click on "Internet Protocol Version 4 (TCP/IPv4)" in the list, and then click on the "Properties" button underneath.
 
-11) Select the "Use the following IP Address" radio button and enter "10.10.1.1." in the form.  Subent mask should be 255.255.255.0.
+11) Select the "Use the following IP Address" button and enter "10.10.1.1." as the IP Address.  Set the subnet mask to "255.255.255.0".
 
 ![LocalAreaConnectionToSubnetMask] (img/Setup_Windows/LocalAreaConnectionToSubnetMask.JPG)
 
 12) Click OK to close the "Properties" window.
 
-13) Next, left click on "Wireles network connection", then click "Properties".
+13) Next, right click on "Wireless network connection", then click "Properties".
 
 14) Select the "Sharing" tab and click the checkbox labeled "Allow other users to connect through their computer's Internet connection".  Click OK to close dialog boxes.
 
@@ -61,7 +61,7 @@ Required: Windows 7 PC with an ethernet port (or USB to ethernet dongle)
 
 16) Open browser and navigate to http://10.10.1.2.  The page may need to be refreshed.
 
-17) Robot GUI willa ppear in browser and display a green status message in upper right hand corner ("Browser Connected to Server") and the user can move the robot head using the controls on the GUI.
+17) Robot GUI will appear in browser and display a green status message in upper right hand corner ("Browser Connected to Server") and the user can move the robot head using the controls on the GUI.
 
 18) Click on the "Config" tab.  The green "online" indicator under the "Connect" button should be visible.
 
