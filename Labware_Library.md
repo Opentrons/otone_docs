@@ -32,11 +32,19 @@ tube-rack-15/50ml - rack that holds 6 15 mL tubes and 4 50 mL tubes
 96-deep-well - 96 well plate
 (A1, A1-H12)
 
+![96-deep-well] (img/Labware_Library/96-Deep-Well.png)
+
 96-PCR-tall - 96 well plate
 (A1, A1-H12)
+
+![96-PCR-tall] (img/Labware_Library/96-PCR-Tall.png)
 
 96-PCR-flat - 96 well plate
 (A1, A1-H12)
 
+![96-PCR-flat] (img/Labware_Library/96-PCR-Flatt.png)
+
 PCR-strip-tall
 (A1, A1-8)
+
+![PCR-strip-tall] (img/Labware_Library/96-PCR-Strip.png)
