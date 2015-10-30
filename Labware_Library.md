@@ -8,14 +8,22 @@ point - For when the position is always going to be the same, such as the trash 
 tiprack-10ul - Tip rack for a 10 uL pipette (single or multi)
 (A1, A1-H12)
 
+![Tiprack-10ul] (img/Labware_Library/Tiprack-10ul.png)
+
 tiprack-10ul-H - Tip rack for a single channel 10 uL pipette when the pipette is in the center position.  Set initial position to H1, and the pipette will use all the tips on the right hand side (E-H, 1-12).
 (H1, E1-H12)
+
+![Tiprack-10ul-H] (img/Labware_Library/Tiprack-10ul-H.png)
 
 tiprack-200ul - Tip rack for a 200 or 300 uL pipette (single or multi)
 (A1, A1-H12)
 
+![Tiprack-200ul] (img/Labware_Library/Tiprack-200ul.png)
+
 tiprack-1000ul - Tip rack for a 1000 uL pipette (single or multi)
 (A1, A1-H12)
+
+![Tiprack-1000] (img/Labware_Library/Tiprack-1000.png)
 
 trough-12row - 12 row reservoir
 (A1, A1-A12)
