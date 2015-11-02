@@ -28,6 +28,8 @@ tiprack-1000ul - Tip rack for a 1000 uL pipette (single or multi)
 trough-12row - 12 row reservoir
 (A1, A1-A12)
 
+![Trough-12row] (img/Labware_Library/Trough-12row.png)
+
 tube-rack-.75ml - 4x6 rack that holds .75 mL microcentrifuge tubes
 (A1, A1-F4)
 
