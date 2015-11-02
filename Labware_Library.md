@@ -43,7 +43,7 @@ tube-rack-2ml - 4x4 rack that holds 1.5 mL microcentrifuge tubes and 2 mL microc
 tube-rack-15_50ml - rack that holds 6 15 mL tubes and 4 50 mL tubes
 (A1, A1-A3 B1-B3 C1-C2 D1-D2)
 
-![Tuberack-15-50ml] (img/Labware_Library/Tuberack-15-50.png)
+![Tuberack-15-50ml] (img/Labware_Library/Tuberack-15-50ml.png)
 
 96-deep-well - 96 well plate
 (A1, A1-H12)
