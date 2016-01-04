@@ -26,7 +26,7 @@ The software running on the OT.One's Raspberry Pi can be updated to the latest r
 
 ## 2. Direct to Raspberry Pi
 
-	### a. Headless (SSH, Mac or Linux)
+### a. Headless (SSH, Mac or Linux)
 
 		1. Open a terminal window
 		2. Enter the following commands:
@@ -65,7 +65,7 @@ The software running on the OT.One's Raspberry Pi can be updated to the latest r
 
 
 
-	### b. Monitor, Keyboard, Mouse, Wifi USB Adapter
+### b. Monitor, Keyboard, Mouse, Wifi USB Adapter
 
 		1. Connect your WiFi USB adapter to one of the empty usb ports on the Raspberry Pi
 		2. Connect a HDMI monitor to the exposed HDMI connector on the Raspberry Pi
