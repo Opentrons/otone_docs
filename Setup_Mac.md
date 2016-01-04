@@ -9,9 +9,9 @@ First thing to do is plug everything in correctly.
 3. Smoothieboard to 12V powersupply in wall socket. This is the round barrel jack and larger power brick.  
 4. Hit the on button to send power to the motors.
 
-![Chords Plugged In Image] (img/Setup_Mac/Plugged_1.jpg)
+![Cords Plugged In Image] (img/Setup_Mac/Plugged_1.jpg)
 
-Finnally, connect the Raspberry Pi to 5V power supply in wall socket. This is the micro-USB like an Android phone charger, and goes in the top of the Raspberry Pi in the slit in the aluminum box. 
+Finally, connect the Raspberry Pi to 5V power supply in wall socket. This is the micro-USB like an Android phone charger, and goes in the top of the Raspberry Pi in the slit in the aluminum box. 
 
 When you plug in the Raspberry Pi it will begin to boot up.  In approximately three minutes, the motors should begin to move as the robot runs through its homing procedure.
 
