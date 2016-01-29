@@ -31,11 +31,11 @@ trough-12row - 12 row reservoir
 ![Trough-12row] (img/Labware_Library/Trough-12row.png)
 
 tube-rack-.75ml - 4x6 rack that holds .75 mL microcentrifuge tubes
-(A1, A1-F4)
+(A1, A1-D6)
 
 ![Tuberack-0.75ml] (img/Labware_Library/Tuberack-0.75ml.png)
 
-tube-rack-2ml - 4x4 rack that holds 1.5 mL microcentrifuge tubes and 2 mL microcentrifuge tubes
+tube-rack-2ml - 4x6 rack that holds 1.5 mL microcentrifuge tubes and 2 mL microcentrifuge tubes
 (A1, A1-D6)
 
 ![Tuberack-2ml] (img/Labware_Library/Tuberack-2ml.png)
