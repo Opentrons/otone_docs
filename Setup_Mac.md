@@ -33,9 +33,9 @@ Navigate to the OSX System Preferences and click on the Networking icon.
 
 The Ethernet connection should connect you through the cable going between your computer and the Raspberry Pi.
 
-Change the Configure IPv4 drop-down menue to "Using DHCP with manual address." Set the address to 10.10.1.1. Then click 'Apply.'
+Change the Configure IPv4 drop-down menue to "Using DHCP with manual address." Set the address to 10.10.1.1.  Set the Subnet Mask to 255.255.255.0, and the router to 10.10.1.2. Then click 'Apply.'
 
-![Network Settings Screenshot] (img/Setup_Mac/Networking_2.jpg)
+![Network Settings Screenshot] (img/Setup_Mac/Networking_2.png)
 
 ### 3. Navigate to the Local Website
 
