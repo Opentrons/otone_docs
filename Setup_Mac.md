@@ -35,7 +35,7 @@ The Ethernet connection should connect you through the cable going between your 
 
 Change the Configure IPv4 drop-down menue to "Using DHCP with manual address." Set the address to 10.10.1.1.  Set the Subnet Mask to 255.255.255.0, and the router to 10.10.1.2. Then click 'Apply.'
 
-![Network Settings Screenshot] (img/Setup_Mac/Networking_2.png)
+![Network Settings Screenshot] (img/Setup_Mac/Networking_2_update.png)
 
 ### 3. Navigate to the Local Website
 
