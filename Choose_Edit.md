@@ -8,7 +8,7 @@ This is an OT-Protocol JSON document explained: [OT-Protocol JSON Explained] (do
 
 ##### 1- Download OT-Protocol Document from Mix.Bio
 
-Each protocol document specifies the which pipette(s) are on the robot head, what labware is on the robot deck, and then what instructions the robot follows for a given run. Find the OT-Protocol document that seems to be closes to what you are looking for in the [Mix.Bio Protocol Library] (https//:mix.bio/browse) and download it. 
+Each protocol document specifies the which pipette(s) are on the robot head, what labware is on the robot deck, and then what instructions the robot follows for a given run. Find the OT-Protocol document that seems to be closes to what you are looking for in the [Mix.Bio Protocol Library] (http://mix.bio/protocols/p10s) and download it. 
 
 ![MixBioDownload] (img/Choose_Edit/MixBioDownload.png)
 
@@ -16,7 +16,7 @@ You can choose a basic template and start a protocol from scratch, or download s
 
 ##### 2- Edit OT-Protocol 
 
-You can view and edit your newly downloaded OT-Protocol document with the [Protocol Editor] (https//:editor.mix.bio). (You can also view and edit the raw code with a text editor if debugging JSON is more your style :) 
+You can view and edit your newly downloaded OT-Protocol document with the [Protocol Editor] (http://editor.mix.bio/). (You can also view and edit the raw code with a text editor if debugging JSON is more your style :) 
 
 You have to add an OT-Protocol document to the editor by browsing for it, or dragging the file directly in as shown here:
 
