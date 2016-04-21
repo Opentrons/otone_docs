@@ -83,7 +83,7 @@ Figure 3: Browser Connected Screenshot
 	Prerequisites. If that does not resolve the issue, it indicates that 
 	the backend client has stopped and you should submit an email here for
 	further assistance and include "YES HOME 1" in the subject line: 
-	<support@opentrons.com>
+	<info@opentrons.com>
 
 
 Attempt to jog one of the axes, for example stepping X 20mm. See Figure 4.
@@ -95,7 +95,7 @@ Does the jog succeed?
 
 If so, the OT-One appears to be running correctly. Try to run a protocol. 
 If there are additional issues, please submit an email here for further
-assistance and include "YES HOME 2" in the subject line: <support@opentrons.com>
+assistance and include "YES HOME 2" in the subject line: <info@opentrons.com>
 
 If not, proceed to the next step.
 
@@ -106,7 +106,7 @@ If the version of software is not the latest, the software should be updated.
 If updating does not resolve the problem, it indicates that there could be a 
 problem with the microcontroller and further technical assistance is required. 
 Please submit an email here for further assistance and include "YES HOME 3" in the subject line: 
-<support@opentrons.com>
+<info@opentrons.com>
 
 Please follow this guide to update: [UPDATE GUIDE](https://github.com/Opentrons/otone_docs/blob/master/SoftwareUpdatingGuide.md)
 
@@ -123,7 +123,7 @@ Does the browser load with a green message "Browser connected to server" in the 
 ![Browser Connected Screenshot] (img/Troubleshoot/Browser_Connected.jpg)
 Figure 3: Browser Connected Screenshot
 
-If not, try refreshing the page and reviewing number 4 of the Prerequisites. If that does not resolve the issue, it indicates that the backend client has stopped and you should submit an here with "NO HOME 1" in the subject line for further assistance: <support@opentrons.com>
+If not, try refreshing the page and reviewing number 4 of the Prerequisites. If that does not resolve the issue, it indicates that the backend client has stopped and you should submit an here with "NO HOME 1" in the subject line for further assistance: <info@opentrons.com>
 
 If so, please proceed to the next step.
 
@@ -133,7 +133,7 @@ Does the browser indicate that certain axes are moving, even though the OT.One d
 ![Axes Homing Screenshot] (img/Troubleshoot/Axes_Homing.jpg)
 Figure 5: Axes Homing Screenshot
 
-If so, it indicates that the OT-One is attempting to home, but there is a problem with power going to the motors. Please submit an email here with "NO HOME 2" in the subject line for further assistance: <support@opentrons.com>
+If so, it indicates that the OT-One is attempting to home, but there is a problem with power going to the motors. Please submit an email here with "NO HOME 2" in the subject line for further assistance: <info@opentrons.com>
 
 
 
