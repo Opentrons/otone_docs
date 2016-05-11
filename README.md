@@ -1,6 +1,8 @@
 # OT.One Up-and-Running Documents
 
-Here is where you will find the information you need to get your OT.One up and running. 
+Congratulations! You’re officially part of the OpenTrons family – a fast-growing network of biologists, programmers and hackers.
+
+This guide will help you with setting up your robot so you can get started running your own experiments!
 
 ### Contents
 
