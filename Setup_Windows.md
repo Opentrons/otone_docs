@@ -51,19 +51,11 @@ Required: Windows 7 PC with an ethernet port (or USB to ethernet dongle)
 
 12) Click OK to close the "Properties" window.
 
-13) Next, right click on "Wireless network connection", then click "Properties".
+13) Open browser and navigate to http://10.10.1.2.  The page may need to be refreshed.
 
-14) Select the "Sharing" tab and click the checkbox labeled "Allow other users to connect through their computer's Internet connection".  Click OK to close dialog boxes.
+14) Robot GUI will appear in browser and display a green status message in upper right hand corner ("Browser Connected to Server") and the user can move the robot head using the controls on the GUI.
 
-![WirelessConnections] (img/Setup_Windows/WirelessConnections.JPG)
-
-15) Click OK and then click Close.  The "Network and Sharing Center" window can then be closed.
-
-16) Open browser and navigate to http://10.10.1.2.  The page may need to be refreshed.
-
-17) Robot GUI will appear in browser and display a green status message in upper right hand corner ("Browser Connected to Server") and the user can move the robot head using the controls on the GUI.
-
-18) Click on the "Config" tab.  The green "online" indicator under the "Connect" button should be visible.
+15) Click on the "Config" tab.  The green "online" indicator under the "Connect" button should be visible.
 
 Once you have all that, its time to move the robot! Go to the next step: [Jogging Controls] (Jogging_Controls.md). 
 
