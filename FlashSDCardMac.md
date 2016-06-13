@@ -59,5 +59,7 @@ You're done!
 
 Links:
 - http://elinux.org/RPi_Easy_SD_Card_Setup#Flashing_the_SD_card_using_Mac_OS_X
+- https://github.com/hypriot/flash
+- http://odroid.com/dokuwiki/doku.php?id=en:odroid_flashing_tools
 
 
