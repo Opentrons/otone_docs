@@ -5,7 +5,7 @@
 
 In Terminal
 
-> diskutil list
+> $ diskutil list
 
 You should see something like:
 
@@ -33,24 +33,31 @@ Find the partition for your card and take note of the disk number. In the exampl
 
 ##2. Format your micro SD card
 
-> sudo diskutil eraseDisk FAT32 *NAME* MBRFormat /dev/disk3
+> $ sudo diskutil eraseDisk FAT32 *NAME* MBRFormat /dev/disk3
 
 *NAME* is whatever you set it to, but do not use brackets.
 
+##3. Unmount Disk
 
-##3. Burn your micro SD card
+> $ diskutil unmountDisk /dev/disk3
 
-> sudo dd bs=1m of=/dev/rdisk3 if=**/path/to/ot-one.img
+##4. Burn your micro SD card
+
+> $ sudo dd bs=1m of=/dev/rdisk3 if=**/path/to/ot-one.img
 
 The r in rdisk3 is not a typo. It prevents the utility from buffering data before writing. Buffering causes the
 operation to take much longer. Bet patient. It will look like it is not doing anything until it finishes, at which time you should enter:
 
-> sync
+> $ sync
 
-##4. Eject your micro SD card
+##5. Eject your micro SD card
 
-> diskutil eject /dev/disk3
+> $ diskutil eject /dev/disk3
 
 You're done!
+
+
+Links:
+- http://elinux.org/RPi_Easy_SD_Card_Setup#Flashing_the_SD_card_using_Mac_OS_X
 
 
