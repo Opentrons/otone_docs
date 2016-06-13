@@ -43,7 +43,7 @@ Find the partition for your card and take note of the disk number. In the exampl
 
 ##4. Burn your micro SD card
 
-> $ sudo dd bs=1m of=/dev/rdisk3 if=**/path/to/ot-one.img
+> $ sudo dd bs=1m of=/dev/rdisk3 if=/path/to/ot-one.img
 
 The r in rdisk3 is not a typo. It prevents the utility from buffering data before writing. Buffering causes the
 operation to take much longer. Bet patient. It will look like nothing is happening until dd finishes, at which time you should enter:
