@@ -6,13 +6,13 @@ The software running on the OT.One's Raspberry Pi can be updated to the latest r
 
 ## 1. User Interface - "Config" Tab
 
-	1. Ensure your networking configuration is configured with internet sharing enabled according to the Setup Guide for your machine.
+1. Ensure your networking configuration is configured with internet sharing enabled according to the Setup Guide for your machine.
 	
-![Mac](https://github.com/OpenTrons/otone_docs/blob/master/Setup_Mac.md)
-![PC](https://github.com/OpenTrons/otone_docs/blob/master/Setup_Windows.md)
+[Mac](https://github.com/OpenTrons/otone_docs/blob/master/Setup_Mac.md "Mac Setup Guide")
+[PC](https://github.com/OpenTrons/otone_docs/blob/master/Setup_Windows.md "PC Setup Guide")
 
-	2. In the OT.One browser user interface, http://10.10.1.2, select the "Config" tab
-	3. Click on "Share Internet" and wait for notification that internet sharing succeeded. There may be several popup notifications, but after closing them, your screen should look like the picture below if it succeeded.
+2. In the OT.One browser user interface, http://10.10.1.2, select the "Config" tab
+3. Click on "Share Internet" and wait for notification that internet sharing succeeded. There may be several popup notifications, but after closing them, your screen should look like the picture below if it succeeded.
 
 ![Config Share Internet Screenshot] (img/Update/Share_Internet.jpg)
 
