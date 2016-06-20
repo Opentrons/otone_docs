@@ -54,3 +54,19 @@ If you do not see the screen pictured below, please contact support for further 
 ![OT.One Interface Screenshot] (img/Setup_Mac/Networking_4.png)
 
 Once you have all that, its time to move the robot! Go to the next step: [Jogging Controls] (Jogging_Controls.md). 
+
+### 5. BONUS - Enable Network Sharing for Updating
+
+Enabling Network Sharing allows for updating software to the latest version.
+
+Open _Sharing_ in _System Preferences_...
+
+![Sharing in System Preferences] (img/Setup_Mac/Networking_Sharing_1.png)
+
+and make the checkmarks look like those in screenshot below.
+
+![Sharing Settings] (img/Setup_Mac/Networking_Sharing_2.png)
+
+There should be a prompt asking _Are you sure you want to turn on Internet sharing?_. Click _Start_. Your Mac should now be sharing its Internet connection with the robot, but you may have to wait a moment for the changes to propagate.
+
+
