@@ -70,8 +70,8 @@ PCR-strip-tall
 
 ![PCR-strip-tall] (img/Labware_Library/96-PCR-Strip.png)
 
-384-PCR-flat - 384 plate
+384-plate
 (A1, A1-P24)
 
-![384-PCR-flat] (img/Labware_Library/384_plate.png)
+![384-plate] (img/Labware_Library/384-plate.png)
 
