@@ -25,6 +25,11 @@ tiprack-1000ul - Tip rack for a 1000 uL pipette (single or multi)
 
 ![Tiprack-1000] (img/Labware_Library/Tiprack-1000.png)
 
+tiprack-1000ul-chem - Tip rack for 1000ul chem 
+(10x10)
+
+![Tiprack-1000ul-chem] (img/Labware_Library/Tiprack-1000ul-chem.png)
+
 trough-12row - 12 row reservoir
 (A1, A1-A12)
 
@@ -64,3 +69,9 @@ PCR-strip-tall
 (A1, A1-8)
 
 ![PCR-strip-tall] (img/Labware_Library/96-PCR-Strip.png)
+
+384-PCR-flat - 384 well plate
+(A1, A1-P24)
+
+![384-PCR-flat] (img/Labware_Library/384-PCR-Flat.png)
+
