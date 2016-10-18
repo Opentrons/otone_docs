@@ -9,7 +9,7 @@ Below you can find links to Open Source projects that OpenTrons maintains.
 
 [OpenTrons App 2.0 Frontend (BETA)](https://github.com/OpenTrons/robot_frontend_v2)
 
-[Protocol Validator](https://github.com/OpenTrons/protocol_validator)
+[Mix.Bio Protocols](https://github.com/OpenTrons/Mix.Bio_Protocols)
 
 
 ---
