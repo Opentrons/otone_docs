@@ -12,7 +12,9 @@ Download the zipped files from [here](https://github.com/OpenTrons/smoothie-conf
 
 Power on and plug in your Opentrons liquid handler, and make sure you do not have the app open. You will notice the Smoothieboard shows up on the computer as a Mass Storage Device, like an external hard drive or flash drive.
 
-Open the Smoothie's storage device to see it's `firmware.cur` and `config` files. There might be other files there, but the two you need to worry about are `firmware.cur` and `config`, because these are what we will be replacing.
+![Select Config File] (img/Update-Firmware/firmware_files.png)
+
+Open the Smoothie's storage device to see it's `FIRMWARE.CUR` and `config` files. There might be other files there, but the two you need to worry about are `FIRMWARE.CUR` and `config`, because these are what we will be replacing.
 
 ##Copy Over `firmware.bin`
 
