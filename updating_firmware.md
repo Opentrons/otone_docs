@@ -18,6 +18,8 @@ Open the Smoothie's storage device to see it's `firmware.cur` and `config` files
 
 From the folder you downloaded from GitHub, 
 
+![Select Config File] (img/Update-Firmware/SelectFirmwareBin.png)
+
 ##Select Your Opentrons Model
 
 Opentrons [come in three models](https://opentrons.com/robots), the Standard, Pro, and Hood. Each model requires a unique "config" file to go along with it.
