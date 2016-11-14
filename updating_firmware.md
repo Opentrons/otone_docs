@@ -18,19 +18,24 @@ Open the Smoothie's storage device to see it's `FIRMWARE.CUR` and `config` files
 
 ##Copy Over `firmware.bin`
 
-From the folder you downloaded from GitHub, 
+From the folder you downloaded from GitHub, find the `firmware.bin` file.
 
 ![Select Config File] (img/Update-Firmware/SelectFirmwareBin.png)
 
-##Select Your Opentrons Model
+Drag `firmware.bin` to the Smoothie's drive. Your drive should now look like the following:
 
-Opentrons [come in three models](https://opentrons.com/robots), the Standard, Pro, and Hood. Each model requires a unique "config" file to go along with it.
+![Select Config File] (img/Update-Firmware/dragFirmwareBin.png)
+
+##Select Your Opentrons Model Config
+
+Opentrons [come in three models](https://opentrons.com/robots), the Standard, Pro, and Hood. Each model requires a unique "config" file to go along with it. Find the config file that matches your robot (the folders are named after each model).
 
 ![Select Config File] (img/Update-Firmware/SelectConfigFile.png)
 
-Inside the downloaded folder, you'll find another folder called "config", which holds a config file for each model. Select your 
+Drag the `config` file from the correct folder onto the Smoothie's drive. You will be overwriting the old `config` file, so your computer may ask if you would like to proceed with replacing it.
 
+![Select Config File] (img/Update-Firmware/replaceConfig.png)
 
+##Restart
 
-1. Copy `firmware.bin` into the Smoothie folder (found on the Smoothie's SD card). This will overwrite the `firmware.cur` upon restart.
-2. Restart the Smoothie.
+Unmount the Smoothie's driver from your computer, and power cycle the robot. When the Smoothieboard powers on, it will read the `firmware.bin` file, then save it as `FIRMWARE.CUR`. It will then read the new `config` file, and your liquid handler now has updated firmware.
