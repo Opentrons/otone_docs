@@ -4,11 +4,13 @@ The motorcontroller inside all Opentrons liquid handlers (called Smoothieboard o
 
 To summarize, there are two files on your Smoothie that must be replaced; `FIRMWARE.CUR` and `config`. 
 
-##Download
+##Step 1
+###Download Files
 
-Download the zipped files from [here](https://github.com/OpenTrons/smoothie-config/archive/1.2.0.zip). After downloading, unpack the zip file to view its contents.
+[Download the zipped files from here](https://github.com/OpenTrons/smoothie-config/archive/1.2.0.zip). After downloading, unpack the zip file to view its contents.
 
-##Open the Smoothie's Drive
+##Step 2
+###Open the Smoothie's Drive
 
 ![Select Config File] (img/Update-Firmware/driveIcon.png)
 
@@ -18,7 +20,8 @@ Power on and plug in your Opentrons liquid handler, and make sure you do not hav
 
 Open the Smoothie's storage device to see it's `FIRMWARE.CUR` and `config` files. There might be other files there, but the two you need to worry about are `FIRMWARE.CUR` and `config`, because these are what we will be replacing.
 
-##Copy Over `firmware.bin`
+##Step 3
+###Copy Over `firmware.bin`
 
 From the folder you downloaded from GitHub, find the `firmware.bin` file.
 
@@ -28,7 +31,8 @@ Drag `firmware.bin` to the Smoothie's drive. Your drive should now look like the
 
 ![Select Config File] (img/Update-Firmware/dragFirmwareBin.png)
 
-##Select Your Opentrons Model Config
+##Step 4
+###Select Your Opentrons Model Config
 
 Opentrons [come in three models](https://opentrons.com/robots), the Standard, Pro, and Hood. Each model requires a unique "config" file to go along with it. Find the config file that matches your robot (the folders are named after each model).
 
@@ -38,6 +42,7 @@ Drag the `config` file from the correct folder onto the Smoothie's drive. You wi
 
 ![Select Config File] (img/Update-Firmware/replaceConfig.png)
 
-##Restart
+##Step 5
+###Restart
 
 Unmount the Smoothie's driver from your computer, and power cycle the robot. When the Smoothieboard powers on, it will read the `firmware.bin` file, then save it as `FIRMWARE.CUR`. It will then read the new `config` file, and your liquid handler now has updated firmware.
