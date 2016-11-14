@@ -1,14 +1,14 @@
 #Updating Firmware
 
-The motorcontroller inside all Opentrons liquid handlers (called Smoothieboard or just Smoothie) will need it's firmware updated if you are planning to use the Opentrons API and accompanying 2.0 app.
+The motorcontroller inside all Opentrons liquid handlers (called Smoothieboard or just Smoothie) will need it's firmware updated if you are planning to use the Opentrons API and accompanying 2.0 app. The process is simple, and can be done from your computer in under a minute.
 
-The process is simple, and can be done from your computer in under a minute.
+To summarize, there are two files on your Smoothie that must be replaced; `firmware.cur` and `config`. 
 
 ##Download
 
 Download the zipped files from [here](https://github.com/OpenTrons/smoothie-config/archive/1.2.0.zip). After downloading, unpack the zip file to view its contents.
 
-##Open the Smoothie Storage Device
+##Open the Smoothie's Drive
 
 Power on and plug in your Opentrons liquid handler, and make sure you do not have the app open. You will notice the Smoothieboard shows up on the computer as a Mass Storage Device, like an external hard drive or flash drive.
 
