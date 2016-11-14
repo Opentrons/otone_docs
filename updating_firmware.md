@@ -10,6 +10,8 @@ Download the zipped files from [here](https://github.com/OpenTrons/smoothie-conf
 
 ##Open the Smoothie's Drive
 
+![Select Config File] (img/Update-Firmware/driveIcon.png)
+
 Power on and plug in your Opentrons liquid handler, and make sure you do not have the app open. You will notice the Smoothieboard shows up on the computer as a Mass Storage Device, like an external hard drive or flash drive.
 
 ![Select Config File] (img/Update-Firmware/firmware_files.png)
