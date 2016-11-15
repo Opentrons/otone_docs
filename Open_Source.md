@@ -3,13 +3,13 @@
 Below you can find links to Open Source projects that OpenTrons maintains.
 
 ###Software
-[OpenTrons App](https://github.com/OpenTrons/otone_frontend)
+[OpenTrons API 2.0](https://github.com/OpenTrons/opentrons-api)
 
-[OpenTrons SDK 2.0 Backend (BETA)](https://github.com/OpenTrons/opentrons_sdk)
+[OpenTrons App 2.0](https://github.com/OpenTrons/opentrons-app)
 
-[OpenTrons App 2.0 Frontend (BETA)](https://github.com/OpenTrons/robot_frontend_v2)
+[OpenTrons App 1.0 (DEPRECATED)](https://github.com/OpenTrons/otone_frontend)
 
-[Mix.Bio Protocols](https://github.com/OpenTrons/Mix.Bio_Protocols)
+[Mix.Bio Protocols (DEPRECATED)](https://github.com/OpenTrons/Mix.Bio_Protocols)
 
 
 ---
