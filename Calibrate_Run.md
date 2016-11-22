@@ -40,7 +40,7 @@ You need to save three positions for each pipette: top, blow-out, and tip-drop. 
 
 Top: This position is where the robot barely touches the top of the pipette plunger, but does not compress the plunger. Effectively the zero for that axis. 
 
-Blow-out: This is the position where the "soft-stop" is on the pipette. You can find this by pressing the pipette down with your finger and feeling the difference between the furthest down "hard stop" and the intermediate "soft-stop" of the plunger -- the soft stop offers resistance but you can still press beyond it to the hard stop. You need to save the robot in position where it pushes to the "soft-stop." 
+Blow-out: This is the position where the "hard-stop" is on the pipette. You can find this by pressing the pipette down with your finger and feeling the difference between the furthest down "hard stop" and the intermediate "soft-stop" of the plunger -- the soft stop offers resistance but you can still press beyond it to the hard stop. You need to save the robot in position where it pushes to the "soft-stop." 
 
 Drop tip: This is the position where the robot has ejected the tip. 
 
