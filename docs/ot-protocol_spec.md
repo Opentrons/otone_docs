@@ -8,7 +8,7 @@ The info section provides fields for the user to specify information about the p
 
 The deck section contains fields specifying the modules located on the robot deck.
 
-The head section contains fields specifying the pipettes or other tools located on the robot’s moveable head.
+The head section contains fields specifying the pipettes or other tools located on the robot’s movable head.
 
 The ingredients section provides fields for specifying the reagents and samples being used in the assay and their starting volumes.
 

@@ -10,27 +10,27 @@
 
   "deck" : {
     "p200-rack" : {
-      "labware" : "tiprack-200ul", 
+      "labware" : "tiprack-200ul",
       "slot": "A1"
     },
     "trough": {
-      "labware": "trough-12row", 
+      "labware": "trough-12row",
       "slot": "C2"
     },
     "plate-1": {
-      "labware": "96-flat", 
+      "labware": "96-flat",
       "slot": "C1"
     },
     "plate-2": {
-      "labware": "96-flat", 
+      "labware": "96-flat",
       "slot": "D1"
     },
     "plate-3": {
-      "labware": "96-flat", 
+      "labware": "96-flat",
       "slot": "D2"
     },
     "trash": {
-      "labware": "point", 
+      "labware": "point",
       "slot": "B2"
     }
   },
@@ -79,7 +79,7 @@
 
 
   "ingredients" : {
-    "ReagentA": 
+    "ReagentA":
     [
       {
         "container": "Reagents-1",
@@ -88,7 +88,7 @@
       }
     ],
 
-    "ReagentB": 
+    "ReagentB":
     [
       {
         "container": "Reagents-1",
@@ -97,14 +97,14 @@
       }
     ],
 
-    "Standard1": 
+    "Standard1":
     [
       {
         "container": "Standards",
         "location": "A1",
         "volume": 125
       }
-    ]   
+    ]
   },
 
 
