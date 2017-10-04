@@ -1,8 +1,8 @@
-##Open Source
+## Open Source
 ---
 Below you can find links to Open Source projects that OpenTrons maintains.
 
-###Software
+### Software
 [OpenTrons API 2.0](https://github.com/OpenTrons/opentrons-api)
 
 [OpenTrons App 2.0](https://github.com/OpenTrons/opentrons-app)
@@ -13,5 +13,5 @@ Below you can find links to Open Source projects that OpenTrons maintains.
 
 
 ---
-###Hardware
+### Hardware
 [OpenTrons Hardware](https://github.com/OpenTrons/otone_hardware)

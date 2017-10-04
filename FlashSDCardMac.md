@@ -1,7 +1,7 @@
 # Flashing OT-One .img onto Micro SD Card on a Mac using Terminal
 
 
-##1. Find your micro SD card
+## 1. Find your micro SD card
 
 In Terminal
 
@@ -31,17 +31,17 @@ You should see something like:
 Find the partition for your card and take note of the disk number. In the example above, the disk number is 3.
 
 
-##2. Format your micro SD card
+## 2. Format your micro SD card
 
 > $ sudo diskutil eraseDisk FAT32 *NAME* MBRFormat /dev/disk3
 
 *NAME* is whatever you set it to, but do not use brackets.
 
-##3. Unmount Disk
+## 3. Unmount Disk
 
 > $ diskutil unmountDisk /dev/disk3
 
-##4. Burn your micro SD card
+## 4. Burn your micro SD card
 
 > $ sudo dd bs=1m of=/dev/rdisk3 if=/path/to/ot-one.img
 
@@ -50,7 +50,7 @@ operation to take much longer. Bet patient. It will look like nothing is happeni
 
 > $ sync
 
-##5. Eject your micro SD card
+## 5. Eject your micro SD card
 
 > $ diskutil eject /dev/disk3
 
